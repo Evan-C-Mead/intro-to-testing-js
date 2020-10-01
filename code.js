@@ -4,13 +4,12 @@ const helloWorld = function() {
 }
 
 function sayHello(input) {
-    if (input === undefined) {
+    if (input === undefined || input === null) {
         return "Hello, World!";
-    } else if (input === true) {
-        return "Hello, World!";
-    } else if (input === false) {
+    } else if (input === true || input === false) {
         return "Hello, World!";
     } else {
         return "Hello, " + input + "!";
     }
 }
+

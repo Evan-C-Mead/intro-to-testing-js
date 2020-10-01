@@ -6,7 +6,7 @@ const helloWorld = function() {
 function sayHello(input) {
     if (input === undefined || input === null) {
         return "Hello, World!";
-    } else if (input === true || input === false) {
+    } else if (typeof input == 'boolean') {
         return "Hello, World!";
     } else {
         return "Hello, " + input + "!";
@@ -15,4 +15,8 @@ function sayHello(input) {
 
 function isFive(input) {
     return input == 5;
+}
+
+function isEven() {
+
 }

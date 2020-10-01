@@ -14,6 +14,5 @@ function sayHello(input) {
 }
 
 function isFive(input) {
-    var bool = true;
-    return (input) = bool;
+    return input == 5;
 }

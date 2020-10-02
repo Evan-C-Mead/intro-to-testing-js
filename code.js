@@ -22,5 +22,5 @@ function isEven(input) {
 }
 
 function isVowel (vowel) {
-    return (vowel == "a");
+    return (vowel === "a" || vowel === "A");
 }

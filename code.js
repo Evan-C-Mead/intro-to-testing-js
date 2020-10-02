@@ -18,11 +18,9 @@ function isFive(input) {
 }
 
 function isEven(input) {
-    if (input == -4) {
-        return true;
-    } else if (typeof input != "boolean" || input == 2) {
-        return true;
-    } else {
-        return false
-    }
+    return input % 2 === 0 && typeof input !== 'boolean';
+}
+
+function isVowel (vowel) {
+    return (vowel == "a");
 }

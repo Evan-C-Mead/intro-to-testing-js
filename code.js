@@ -26,3 +26,6 @@ function isVowel (vowel) {
 }
 
 
+function add () {
+
+}

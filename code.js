@@ -26,6 +26,10 @@ function isVowel (vowel) {
 }
 
 
-function add () {
-
+function add (x, y) {
+    if (isNaN(x) || isNaN(y)) {
+        return "NaN";
+    } else {
+        return Number(x) + Number(y);
+    }
 }

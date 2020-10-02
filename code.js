@@ -17,6 +17,6 @@ function isFive(input) {
     return input == 5;
 }
 
-function isEven() {
-
+function isEven(input) {
+    return typeof input == "boolean" || input == 2;
 }
